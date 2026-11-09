@@ -1,0 +1,5 @@
+*.o
+push_pop
+stack_arithmetic
+stack_frame
+stack_reversed
