@@ -25,7 +25,7 @@ _start:
     ; ---- pop them off in reverse order (LIFO) ----
     pop r13               ; r13 = 0x3333...  RSP += 8
     pop r14               ; r14 = 0x2222...  RSP += 8
-    pop r15               ; r15 = 0x3333...  RSP += 8
+    pop r15               ; r15 = 0x1111...  RSP += 8
 
     ; RSP is back to r12 (the initial value), proving the stack balanced.
 
